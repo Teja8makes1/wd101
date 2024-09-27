@@ -1,1 +1,31 @@
-
+<html>
+  <head>
+    Registration Form
+  </head>
+  <body>
+    <h1>WD101 Registration Form</h1>
+    <body>
+    <form id="form">
+      <label for="Name">Name:</label>
+      <input type="text" id="Name" name="Name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <br>
+      <label for="pass">Password:</label>
+      <input type="password" id="pass" name="pass" required>
+      <br>
+      <label for="date">Date of Birth:</label>
+      <input type="date" id="date" name="date" required>
+      <span id="dateError" class="error"></span>
+      <br>
+      <input type="checkbox" id="check" name="check">
+      <label for="check">Accepted Terms?</label>
+      <span id="checkError" class="error"></span>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  
+    <div id="user-entries"></div>
+  </body>
+</html>
