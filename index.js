@@ -85,7 +85,7 @@ const saveUserForm = (event) => {
 
     // Validate terms acceptance
     if (!act) {
-        checkError.textContent = "You must accept the terms.";
+        checkError.textContent = "";
         return;
     } else {
         checkError.textContent = "";
